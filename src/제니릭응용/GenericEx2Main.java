@@ -16,6 +16,8 @@ public class GenericEx2Main {
             default: System.out.println("잘못된 입력 입니다."); return;
         }
 
+
+
         System.out.println("=".repeat(30));
         controller.powerOn();
         controller.powerOff();
